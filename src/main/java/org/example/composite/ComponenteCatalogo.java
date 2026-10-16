@@ -1,4 +1,10 @@
 package org.example.composite;
 
-public class ComponenteCatalogo {
+public interface ComponenteCatalogo {
+
+    String getNombre();
+
+    double calcularPrecio();
+
+    void mostrarDesglose(int nivel);
 }

@@ -1,4 +1,8 @@
 package org.example.decorator;
 
-public class Pedido {
+public interface Pedido {
+
+    double calcularCosto();
+
+    String getDescripcion();
 }
