@@ -27,7 +27,7 @@ public class ShopMasterFacade {
 
     public boolean ejecutarCompraRapida(String usuario, ComponenteCatalogo carrito, ServicioExtra... extras) {
 
-        System.out.println("Desglose de productos:");
+        System.out.println("Lista de productos:");
         carrito.mostrarDesglose(1);
 
 
