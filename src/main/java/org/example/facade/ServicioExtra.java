@@ -1,4 +1,7 @@
 package org.example.facade;
 
-public class ServicioExtra {
+public enum ServicioExtra {
+    GARANTIA_EXTENDIDA,
+    EMPAQUE_REGALO,
+    MANEJO_FRAGIL
 }
